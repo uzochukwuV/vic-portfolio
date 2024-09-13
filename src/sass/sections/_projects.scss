@@ -11,6 +11,9 @@
 
   .project-wrapper {
     margin-bottom: 15rem;
+    max-height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
     @include respond(phone) {
       margin-bottom: 0rem;
